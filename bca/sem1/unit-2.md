@@ -8,11 +8,11 @@
 
 ---
 
-# 📑 Unit 2 : Introduction of C Language
+# 📑 Unit 2 : Branching & Looping
 
-## _Branching & Looping_
+## *Branching & Looping*
 
-### _Decision Structure_
+### *Decision Structure*
 
 - If Statements
   - Simple if Statement
@@ -25,7 +25,7 @@
 
 - Conditional (Ternary) Operator
 
-### _Looping Structures_
+### *Looping Structures*
 
 - For Loop
 
@@ -39,7 +39,7 @@
   - Nested Do...While Loop
   - Mixed Nested Loops
 
-### _Jumping Statements_
+### *Jumping Statements*
 
 - Break Statement
 
@@ -767,12 +767,12 @@ Output:
 
 # Difference Between if...else and Ternary Operator
 
-| if...else                        | Ternary Operator          |
-| -------------------------------- | ------------------------- |
-| Multiple lines                   | Single line               |
-| Easy for complex logic           | Suitable for simple logic |
-| More readable for large programs | More compact              |
-| Statement based                  | Expression based          |
+| if...else | Ternary Operator |
+|------------|------------------|
+| Multiple lines | Single line |
+| Easy for complex logic | Suitable for simple logic |
+| More readable for large programs | More compact |
+| Statement based | Expression based |
 
 ---
 
@@ -955,14 +955,14 @@ int main()
 
 ## Dry Run
 
-| Iteration | i   | Condition |
-| --------- | --- | --------- |
-| 1         | 1   | True      |
-| 2         | 2   | True      |
-| 3         | 3   | True      |
-| 4         | 4   | True      |
-| 5         | 5   | True      |
-| 6         | 6   | False     |
+| Iteration | i | Condition |
+|------------|----|------------|
+| 1 | 1 | True |
+| 2 | 2 | True |
+| 3 | 3 | True |
+| 4 | 4 | True |
+| 5 | 5 | True |
+| 6 | 6 | False |
 
 ---
 
@@ -1070,14 +1070,14 @@ int main()
 
 ## Dry Run
 
-| Iteration | i   | Condition |
-| --------- | --- | --------- |
-| 1         | 1   | True      |
-| 2         | 2   | True      |
-| 3         | 3   | True      |
-| 4         | 4   | True      |
-| 5         | 5   | True      |
-| 6         | 6   | False     |
+| Iteration | i | Condition |
+|------------|----|------------|
+| 1 | 1 | True |
+| 2 | 2 | True |
+| 3 | 3 | True |
+| 4 | 4 | True |
+| 5 | 5 | True |
+| 6 | 6 | False |
 
 ---
 
@@ -1234,11 +1234,11 @@ the loop executes once because the condition is checked after execution.
 
 # Difference Between While and Do...While
 
-| While Loop                       | Do...While Loop          |
-| -------------------------------- | ------------------------ |
-| Entry Controlled                 | Exit Controlled          |
-| Condition Checked First          | Condition Checked Last   |
-| May Execute Zero Times           | Executes At Least Once   |
+| While Loop | Do...While Loop |
+|-------------|----------------|
+| Entry Controlled | Exit Controlled |
+| Condition Checked First | Condition Checked Last |
+| May Execute Zero Times | Executes At Least Once |
 | Faster for Conditional Execution | Useful for Menu Programs |
 
 ---
@@ -1499,16 +1499,15 @@ Nested loops are commonly used for:
 
 # Comparison of Loops
 
-| Feature                | For Loop         | While Loop         | Do...While Loop      |
-| ---------------------- | ---------------- | ------------------ | -------------------- |
-| Control Type           | Entry Controlled | Entry Controlled   | Exit Controlled      |
-| Initialization         | Inside Loop      | Outside Loop       | Outside Loop         |
-| Condition Check        | Before Execution | Before Execution   | After Execution      |
-| Executes At Least Once | No               | No                 | Yes                  |
-| Best Used For          | Known Iterations | Unknown Iterations | Menu Driven Programs |
+| Feature | For Loop | While Loop | Do...While Loop |
+|-----------|-----------|-----------|----------------|
+| Control Type | Entry Controlled | Entry Controlled | Exit Controlled |
+| Initialization | Inside Loop | Outside Loop | Outside Loop |
+| Condition Check | Before Execution | Before Execution | After Execution |
+| Executes At Least Once | No | No | Yes |
+| Best Used For | Known Iterations | Unknown Iterations | Menu Driven Programs |
 
 ---
-
 # Jumping Statements
 
 ## Introduction
@@ -1816,12 +1815,12 @@ All even numbers are skipped using continue.
 
 # Difference Between Break and Continue
 
-| Break Statement                | Continue Statement              |
-| ------------------------------ | ------------------------------- |
-| Terminates the loop completely | Skips only current iteration    |
-| Control exits loop             | Control moves to next iteration |
-| Used to stop execution         | Used to skip execution          |
-| Applicable in loops and switch | Applicable only in loops        |
+| Break Statement | Continue Statement |
+|-----------------|-------------------|
+| Terminates the loop completely | Skips only current iteration |
+| Control exits loop | Control moves to next iteration |
+| Used to stop execution | Used to skip execution |
+| Applicable in loops and switch | Applicable only in loops |
 
 ---
 
@@ -2076,13 +2075,14 @@ Use loops and functions instead whenever possible.
 
 # Comparison of Jumping Statements
 
-| Feature                 | Break | Continue | Goto |
-| ----------------------- | ----- | -------- | ---- |
-| Terminates Loop         | Yes   | No       | No   |
-| Skips Current Iteration | No    | Yes      | No   |
-| Jumps to Label          | No    | No       | Yes  |
-| Used in Loop            | Yes   | Yes      | Yes  |
-| Used in Switch          | Yes   | No       | No   |
-| Readability             | High  | High     | Low  |
+| Feature | Break | Continue | Goto |
+|----------|----------|----------|----------|
+| Terminates Loop | Yes | No | No |
+| Skips Current Iteration | No | Yes | No |
+| Jumps to Label | No | No | Yes |
+| Used in Loop | Yes | Yes | Yes |
+| Used in Switch | Yes | No | No |
+| Readability | High | High | Low |
 
 ---
+
